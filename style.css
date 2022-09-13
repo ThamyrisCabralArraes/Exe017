@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    -USAR: PX E EM- normalmente 16px é o tamanho normal da fonte, 16px é 1em
+    */
+    font-size: 16px;
+    h1 {
+        font: bold bolder 3em 'work Sans', sans-serif; 
+        /* No lugar de usar:
+        font-family: 'work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        Usa só essa linha de cima: 
+        font-style - font-weight - font-size - font-family
+         */
+    }
+}
